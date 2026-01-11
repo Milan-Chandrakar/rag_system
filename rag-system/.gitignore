@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Data
+data/documents/*
+data/vectordb/*
+!data/documents/.gitkeep
+!data/vectordb/.gitkeep
+
+# Logs
+*.log
+
+# Gradio
+gradio_cached_examples/
+flagged/
